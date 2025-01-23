@@ -10,7 +10,7 @@ const Home = () => {
   
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Hero Section */}
+     
       {/* Hero Section */}
       <div className="relative h-96 bg-gray-900">
         <div className="absolute inset-0 bg-black/60 flex justify-center items-center">
@@ -25,15 +25,15 @@ const Home = () => {
               </p>
 
               {/* Search Bar */}
-              <div className="flex items-center bg-white rounded-lg p-2">
+              <div className="flex items-center w-full bg-white rounded-lg p-2">
                 <input
                   type="text"
                   placeholder="Enter your vehicle details..."
                   className="flex-1 px-4 py-2 outline-none"
                 />
-                <button className="bg-blue-600 text-white px-6 py-2 rounded-md flex items-center">
-                  <Search className="w-5 h-5 mr-2" />
-                  Search Tyres
+                <button className="    flex items-center">
+                  <Search color='#000000' className=" " />
+                  
                 </button>
               </div>
             </div>
@@ -131,27 +131,7 @@ const Home = () => {
         </div>
       </div>
 
-       {/* Testimonials Section */}
-       {/* <div className="bg-gray-100 py-16">
-        <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-8">What Our Customers Say</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {[1, 2, 3].map((testimonial) => (
-              <div
-                key={testimonial}
-                className="bg-white p-6 rounded-lg shadow-md text-center"
-              >
-                <Star className="w-8 h-8 text-yellow-500 mb-4" />
-                <p className="text-gray-600 italic mb-4">
-                  "I recently bought tyres from here, and the experience was
-                  fantastic! Quick installation and top-quality products."
-                </p>
-                <h3 className="text-lg font-semibold">John Doe</h3>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div> */}
+      
 
       <TestimonialsSection />
 
