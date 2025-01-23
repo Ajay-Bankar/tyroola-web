@@ -3,7 +3,7 @@ import { Search, PhoneCall, CheckCircle,Star,} from 'lucide-react';
 import FAQSection from '@/components/FAQSection';
 import HeroSection from '@/components/HeroSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
-import PaymentOptions from '@/components/paymentMethods';
+import PaymentOptions from '@/components/PaymentOptions';
 
 const Home = () => {
 
