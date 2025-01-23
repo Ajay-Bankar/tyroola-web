@@ -4,7 +4,7 @@ import React from "react";
 const paymentMethods = [
   {
     id: 1,
-    image: "https://businessgrowth.afterpay.com/rs/424-IAB-218/images/AP_logo_badge_6328x2204_blackmint_jpg.jpg", // Afterpay logo URL
+    image: "https://businessgrowth.afterpay.com/rs/424-IAB-218/images/AP_logo_badge_6328x2204_blackwhite_jpg.jpg", // Afterpay logo URL
     title: "Afterpay",
     description:
       "Pay for your tyres over 4 simple installments and pay nothing extra when you pay on time. No new card application - Instant approval online.",
